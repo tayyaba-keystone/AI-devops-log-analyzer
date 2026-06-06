@@ -1,0 +1,11 @@
+[LINUX LOGS]
+Jun 02 10:15:21 server01 sshd[1234]: Failed password for root
+Jun 02 10:15:30 server01 systemd[1]: Failed to start nginx.service
+
+[DOCKER LOGS]
+2026-06-02T10:20:15Z ERROR Java heap space
+2026-06-02T10:20:16Z ERROR Container killed due to memory limit exceeded
+
+[KUBERNETES LOGS]
+Warning FailedScheduling 0/3 nodes are available: insufficient memory
+Warning CrashLoopBackOff Container web-app is repeatedly crashing
