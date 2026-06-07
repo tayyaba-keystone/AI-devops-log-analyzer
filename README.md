@@ -137,7 +137,8 @@ AI-devops-log-analyzer
 
 ### Home Page
 
-![Home](screenshots/home.png)
+<img width="1366" height="655" alt="image" src="https://github.com/user-attachments/assets/f0810b90-6060-4c9f-833e-a136ae86fb50" />
+
 
 ---
 
