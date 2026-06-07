@@ -15,36 +15,37 @@ function UploadCard({ setResult, setStats, setSummary }) {
 
     const formData = new FormData();
     formData.append("file", file);
+ 
+  try {
+  const response = await axios.post(
+    "http://127.0.0.1:8000/upload-log",
+    formData
+  );
 
-    try {
-      const response = await axios.post(
-        "http://127.0.0.1:8000/upload-log",
-        formData
-      );
+  console.log("API RESPONSE:", response.data);
 
-      setResult(response.data);
-      setSummary(response.data.summary);
+  setResult(response.data);
+  setSummary(response.data.summary);
 
-      // ✅ Direct backend stats (REAL DATA)
-      if (response.data.stats) {
-        setStats(response.data.stats);
-      } else {
-        // fallback safety
-        setStats({
-          total: 0,
-          critical: 0,
-          successRate: 0
-        });
-      }
+  if (response.data.stats) {
+    setStats(response.data.stats);
+  } else {
+    setStats({
+      total: 0,
+      critical: 0,
+      successRate: 0
+    });
+  }
 
-    } catch (error) {
-      console.error(error);
+} catch (error) {
+  console.error(error);
 
-      setResult({
-        error: "Failed to analyze log"
-      });
-    }
+  setResult({
+    error: "Failed to analyze log"
+  });
+}
 
+  
     setLoading(false);
   };
 
