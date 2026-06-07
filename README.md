@@ -144,19 +144,25 @@ AI-devops-log-analyzer
 
 ### Upload Log File
 
-![Upload](screenshots/upload.png)
+Click on upload button and upload the log file after click on analyze button
+
+<img width="1366" height="418" alt="image" src="https://github.com/user-attachments/assets/2e4eb22c-c32c-4299-acc9-a7183ea62c44" />
+
 
 ---
 
 ### Dashboard Metrics
 
-![Dashboard](screenshots/dashboard.png)
+<img width="1366" height="594" alt="image" src="https://github.com/user-attachments/assets/eeea09c5-3ce5-44d0-a251-9fbe880a69b5" />
+
 
 ---
 
 ### AI Analysis
 
-![Analysis](screenshots/analysis.png)
+<img width="1141" height="587" alt="image" src="https://github.com/user-attachments/assets/602b3161-ca40-47b1-9283-b27807314977" />
+
+<img width="1147" height="574" alt="image" src="https://github.com/user-attachments/assets/dabd6706-a048-484e-9836-9431acab758f" />
 
 ---
 
