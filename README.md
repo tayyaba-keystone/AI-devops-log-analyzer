@@ -278,19 +278,6 @@ Technologies:
 
 ---
 
-## Future Enhancements
-
-* Real-time log streaming
-* Kubernetes cluster integration
-* Elasticsearch support
-* Grafana integration
-* PDF report generation
-* Historical incident tracking
-* User authentication
-* AWS deployment
-
----
-
 ## Author
 
 Tayyaba Bagwan
