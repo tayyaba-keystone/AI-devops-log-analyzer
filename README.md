@@ -43,8 +43,7 @@ The platform detects critical incidents, calculates operational metrics, identif
 
 * React.js
 * Tailwind CSS
-* Axios
-* Vite
+
 
 ### Backend
 
